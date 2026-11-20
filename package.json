@@ -1,0 +1,9 @@
+{
+  "name": "charge-nurse-handoff-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Excel and Microsoft Forms charge nurse handoff and staffing templates",
+  "license": "MIT",
+  "engines": {"node": ">=24"},
+  "scripts": {"test": "node --test tests/*.test.mjs"}
+}

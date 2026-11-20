@@ -1,0 +1,23 @@
+[
+  {"key":"AddOnsPicked","question":"Have add-on cases been picked?","label":"Add-on cases picked","type":"Yes/No","slot":"addons","rule":"yes-good","legacy":"Column15"},
+  {"key":"SurgeonAvailability","question":"For add-on cases, is the surgeon's availability confirmed? Include availability in booking.","label":"Surgeon availability","type":"Text","slot":"detail","rule":"info","legacy":"Column18"},
+  {"key":"PreopAware","question":"Does preop know about the add-on cases?","label":"Preop notified","type":"Yes/No","slot":"detail","rule":"yes-good","legacy":"Column21"},
+  {"key":"CallOuts","question":"Were there any staff call-outs?","label":"Staff call-outs","type":"Yes/No","slot":"callouts","rule":"no-good","legacy":"Column24"},
+  {"key":"CallOutNames","question":"What are the names and roles of the staff who called out?","label":"Staff called out","type":"Text","slot":"calloutNames","rule":"info","legacy":"Column27"},
+  {"key":"StaffAssigned","question":"Have all staff been assigned to a task or room?","label":"Staff assigned","type":"Yes/No","slot":"detail","rule":"yes-good","legacy":"Column30"},
+  {"key":"HourlyRounds","question":"Have hourly OR rounds been completed and all staff accounted for?","label":"Hourly OR rounds","type":"Yes/No","slot":"detail","rule":"yes-good","legacy":"Column33"},
+  {"key":"EnvironmentalRounds","question":"Have environmental rounds been completed, including lead storage, tape, sutures, wires and equipment dust?","label":"Environmental rounds","type":"Yes/No","slot":"detail","rule":"yes-good","legacy":"Column36"},
+  {"key":"Concerns","question":"What staff or environmental concerns were found? Enter None when there are no concerns.","label":"Staff or environmental concerns","type":"Text","slot":"concerns","rule":"info","legacy":"Column39"},
+  {"key":"HallwayClear","question":"Is the hallway free of clutter?","label":"Hallway clear","type":"Yes/No","slot":"detail","rule":"yes-good","legacy":"Column42"},
+  {"key":"CaseCarts","question":"Are surgical case carts in the correct locations?","label":"Case cart locations","type":"Yes/No","slot":"detail","rule":"yes-good","legacy":"Column45"},
+  {"key":"EquipmentLocations","question":"Is equipment in the correct locations?","label":"Equipment locations","type":"Yes/No","slot":"detail","rule":"yes-good","legacy":"Column48"},
+  {"key":"RobotsPositioned","question":"Are robots correctly positioned in their rooms?","label":"Robots positioned","type":"Yes/No","slot":"detail","rule":"yes-good","legacy":"Column51"},
+  {"key":"EmergencyCarts","question":"Are emergency carts stocked?","label":"Emergency carts stocked","type":"Yes/No","slot":"detail","rule":"yes-good","legacy":"Column54"},
+  {"key":"EquipmentChecks","question":"Have the code cart, medication OmniCell and blood fridge been checked for expirations or errors?","label":"Code cart / OmniCell / blood fridge","type":"Yes/No","slot":"equipmentChecks","rule":"yes-good","legacy":"Column57"},
+  {"key":"BreakCheckIn","question":"Did nurses, techs, support staff, anesthesia techs and case pickers check in before breaks or lunch?","label":"Break and lunch check-in","type":"Yes/No","slot":"detail","rule":"yes-good","legacy":"Column60"},
+  {"key":"MissedCheckIn","question":"Who did not check in, if this has not already been escalated?","label":"Missed check-ins","type":"Text","slot":"detail","rule":"info","legacy":"Column63"},
+  {"key":"PutBacks","question":"Were put-backs followed up on?","label":"Put-backs followed up","type":"Yes/No","slot":"putbacks","rule":"yes-good","legacy":"Column66"},
+  {"key":"Issues","question":"What issues were identified on your shift? Enter None when there are no issues.","label":"Issues and follow-up","type":"Text","slot":"issues","rule":"info","legacy":"Column69"},
+  {"key":"RoomsReady","question":"Were rooms prepared for an emergency or the next day's cases?","label":"Rooms prepared","type":"Yes/No","slot":"rooms","rule":"yes-good","legacy":"Column72"},
+  {"key":"Comments","question":"What else should the next charge nurse know? Include comments, needs or shout-outs.","label":"Additional handoff notes","type":"Text","slot":"comments","rule":"info","legacy":"Column75"}
+]

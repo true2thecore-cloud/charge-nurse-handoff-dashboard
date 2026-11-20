@@ -1,0 +1,9 @@
+node_modules/
+.env*
+!*.example
+~$*
+*.log
+private/
+*.xlsx.inspect.ndjson
+build/
+qa/
